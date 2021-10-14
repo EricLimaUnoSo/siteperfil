@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: url('img/fundo.jpeg') no-repeat center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+main {
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+}
+
+.container {
+	padding: 5px;
+}
+
+.content {
+	margin: 5px;
+	padding: 10px;
+}
+
+#perfil {
+	display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+}
+
+#imagem {
+	float: left;
+	height: 100px;
+	display: block;
+	border-radius: 50%;
+}
+
+p {
+	text-indent: 30px;
+	text-align: justify;
+	margin: 10px 0;
+}
+
+
